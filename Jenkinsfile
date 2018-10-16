@@ -6,7 +6,7 @@ node(){
      bat 'mvn package'
   }
   stage("Sonar analyis"){
-      echo "Sonar analysis"
+      echo "Sonar analysis!!!!!!!!!!!!!!!!!!"
   }
   stage("Creating and running the docker image"){
       echo "Write the steps for docker ss or bat"
