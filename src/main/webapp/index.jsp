@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>!!!!!!!!!!!!!!!!!!!!!!!!!!!!Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Added new code</h2>
+<h2>modified the index.jsp page</h2>
 </body>
 </html>
