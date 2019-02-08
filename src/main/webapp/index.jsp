@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>!!!!!!!!!!!!!!modified the index.jsp page!!!!!!!!!!!!!!!!!!!!!!!!</h2>
+<h2>     Today is 8th Feb   </h2>
 </body>
 </html>
