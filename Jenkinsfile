@@ -6,7 +6,7 @@ node(){
     }
      stage('building'){
         sh label: '', script: '''ls
-mvn package1
+mvn package
 cd ..
 '''
         echo "building"
