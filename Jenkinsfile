@@ -23,4 +23,15 @@ cd ..
      stage('Deploy to dev'){
         echo "Deploy to dev"
     }
+    stage('clean-ws'){
+    sh '''
+    pwd
+    ls
+    cd ..
+    rm -rf "pipeline1*"
+    pwd
+    ls
+    '''
+        
+    }
 }
