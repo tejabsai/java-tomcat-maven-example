@@ -3,7 +3,7 @@ properties([[$class: 'JiraProjectProperty'], [$class: 'DatadogJobProperty', tagF
 //checkout scm   
        
          stage('checkout'){
-                checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: */"$BRACNH_NAME"]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/csenapati12/java-tomcat-maven-example.git']]]          
+                checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: ${BRACNH_NAME}]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/csenapati12/java-tomcat-maven-example.git']]]          
          }
 stage('Maven Build') {         
          sh '''
